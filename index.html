@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رسالة حب</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+        body {
+            background-color: #FFD1DC; /* لون خلفية فاتح */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+             font-family: "Playwrite US Modern", cursive;
+        }
+        .container {
+            background-color: #fff; /* لون خلفية النموذج */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #e91e63; /* لون عنوان بنفسجي فاتح */
+            margin-bottom: 20px;
+        }
+        input[type="password"] {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #e91e63; /* لون الزر */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 1s;
+             font-family: "Playwrite US Modern", cursive;
+
+            
+        }
+        button:hover {
+            background-color: #000000;
+             /* لون الزر عند التمرير */
+             font-size: 20px;
+             width: 250px;
+             border-radius: 20px;
+        }
+    </style>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "love") {
+                window.location.href = "page2.html"; // استبدل بمسار الصفحة الثانية
+            } else {
+                alert("كلمة المرور غير صحيحة");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>please inter the password</h1>
+        <h3>the password is love 😊❤😘</h3>
+        <input type="password" id="password" placeholder="password">
+        <button onclick="checkPassword()">Inter</button>
+    </div>
+</body>
+</html>

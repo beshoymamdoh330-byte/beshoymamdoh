@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility classes  */
+.contanier {
+    width: 100%;
+}
+
+/* header start  */
+
+
+
+.navbar {
+    height: 95px;
+    background-color: #2e2e2e;
+}
+
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.navbar li {
+    list-style: none;
+    margin: 40px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fffbea;
+    transition: 1s;
+    font-size: 20px;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+
+.navbar li a:hover {
+    color: #ffd369;
+    font-size: 30px;
+}
+
+
+
+header {
+    height: 100vh;
+    background: url(./img/home-background.jpg) center center/cover no-repeat  ;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid goldenrod;
+}
+
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fffbea;
+
+}
+
+.content h1 {
+    font-family: "Lalezar", sans-serif;
+    word-spacing: 15px;
+}
+
